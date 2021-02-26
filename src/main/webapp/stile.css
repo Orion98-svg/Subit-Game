@@ -1,7 +1,13 @@
-@charset "utf 8";
-
+@charset "utf-8";
+body
+{
+	background-image:url("background.jpg");
+}
+#barra
+{
+	background-color:black;
+}
 #testa {
-  background-color: orange;
   padding: 15px;
   border-radius: 10px;
   display: flex;
@@ -28,10 +34,159 @@
 
 #nav {
   border-radius: 8px;
+  background-color:rgb(64,64,64);
+  color:white;
 }
 
+#search-button {
+    border-color:rgb(255,69,0); 	
+    background-color:rgb(64,64,64);
+ 	background-image:url("Search-button.png");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	width:40px;
+
+}
+#showcase
+{
+	max-width: 1000px;
+	height:1036px;
+	background-color:rgb(240,240,240);
+	border-radius: 8px;
+	flex-wrap: wrap;
+}
+#steam
+{
+	width:30px;
+	height:30px;
+	background-color:white;
+	background-image:url("steam-logo-transparent.png");	
+	background-size:cover;
+	border-radius:100%;
+	margin-left:0px;
+	text-align: right;
+	text-decoration: none;
+	
+}
+#uplay
+{
+	width:30px;
+	height:30px;
+	background-color:white;
+	background-image:url("uplay.png");	
+	background-size:cover;
+	border-radius:100%;
+	margin-left:0px;
+	text-align: right;
+	text-decoration: none;
+	
+}
+#rockstar
+{
+	width:30px;
+	height:30px;
+	background-color:white;
+	background-image:url("Rockstar.png");	
+	background-size:cover;
+	border-radius:100%;
+	margin-left:0px;
+	text-align: right;
+	text-decoration: none;
+	
+}
+#epic
+{
+	width:30px;
+	height:30px;
+	background-color:white;
+	background-image:url("epic.png");	
+	background-size:cover;
+	border-radius:100%;
+	margin-left:0px;
+	text-align: right;
+	text-decoration: none;
+	
+}
+#xbox
+{
+	width:30px;
+	height:30px;
+	background-color:white;
+	background-image:url("xbox.png");	
+	background-size:cover;
+	border-radius:100%;
+	margin-left:0px;
+	
+	
+}
+#origin
+{
+	width:30px;
+	height:30px;
+	background-color:white;
+	background-image:url("origin.png");	
+	background-size:cover;
+	border-radius:100%;
+	margin-left:0px;
+	
+	
+}
+#link-container
+{
+		width: 25%;
+		height: 30%;
+		background-color:white;
+		margin-left:10px;
+		border-radius:8px;
+		flex-wrap:wrap;
+		box-shadow:300px;
+		box-shadow: black;
+		
+		
+		
+}
+#social-container
+{
+	width:200px;
+	height:200px;
+	margin-left:1px;
+			
+}
+#instagram
+{
+	width:70px;
+	height:70px;
+	background-image:url("instagram-logo.jpg");	
+	background-size:cover;
+	margin-left:0px;
+	
+}
+#facebook
+{
+	width:70px;
+	height:70px;
+	background-image:url("facebook.png");	
+	background-size:cover;
+	margin-left:0px;
+	
+}
+#immagine
+{
+	width: 1000px;
+	height:200px;
+	background-image: url("Legend-of-Zelda-Majoras-Mask-3D.jpg");
+	background-size: cover;
+	border-radius: 8px;
+	
+}
+#search-bar
+{
+	background-color:rgb(64,64,64);
+    border-color:rgb(64,64,64);
+    color:rgb(255,69,0); 
+}
 @media (max-width: 600px) {
   #testa {
     flex-flow: column;
   }
-}
+};

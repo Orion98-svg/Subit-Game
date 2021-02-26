@@ -1,0 +1,37 @@
+@charset "utf 8";
+
+#testa {
+  background-color: orange;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  max-width: 1036px;
+  margin: 0 auto;
+}
+
+#logo {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#ricerca {
+  margin-top: 10px;
+  margin-bottom: 0 !important;
+}
+
+#submenu {
+  max-width: 1036px;
+}
+
+#nav {
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  #testa {
+    flex-flow: column;
+  }
+}
