@@ -16,26 +16,6 @@ body {
   margin: 0 auto;
 }
 
-#logo {
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
-
-#ricerca {
-  margin-top: 10px;
-  margin-bottom: 0 !important;
-}
-
-#submenu {
-  max-width: 1036px;
-}
-
-#nav {
-  border-radius: 8px;
-  background-color: rgb(64, 64, 64);
-  color: white;
-}
-
 #search-button {
   border-color: rgb(255, 69, 0);
   background-color: rgb(64, 64, 64);
@@ -44,6 +24,16 @@ body {
   background-repeat: no-repeat;
   width: 40px;
 }
+
+#immagine {
+  max-width: 1000px;
+  min-height: 70px;
+  height: 200px;
+  background-image: url("Legend-of-Zelda-Majoras-Mask-3D.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+
 #showcase {
   max-width: 1000px;
   height: 1036px;
@@ -142,13 +132,7 @@ body {
   background-size: cover;
   margin-left: 0px;
 }
-#immagine {
-  width: 1000px;
-  height: 200px;
-  background-image: url("Legend-of-Zelda-Majoras-Mask-3D.jpg");
-  background-size: cover;
-  border-radius: 8px;
-}
+
 #search-bar {
   background-color: rgb(64, 64, 64);
   border-color: rgb(64, 64, 64);
@@ -158,4 +142,22 @@ body {
   #testa {
     flex-flow: column;
   }
-} ;
+}
+
+@media (max-width: 900px) {
+  #immagine {
+    height: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  #immagine {
+    height: 90px;
+  }
+}
+
+@media (max-width: 1030px) {
+  #link-contaier #social-container {
+    display: none;
+  }
+}
