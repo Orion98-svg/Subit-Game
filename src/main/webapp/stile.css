@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-  background-image: url("background.jpg");
+  background-image: url("images/background.jpg");
 }
 #barra {
   background-color: black;
@@ -19,7 +19,7 @@ body {
 #search-button {
   border-color: rgb(255, 69, 0);
   background-color: rgb(64, 64, 64);
-  background-image: url("Search-button.png");
+  background-image: url("images/Search-button.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
@@ -29,7 +29,7 @@ body {
   max-width: 1000px;
   min-height: 70px;
   height: 200px;
-  background-image: url("Legend-of-Zelda-Majoras-Mask-3D.jpg");
+  background-image: url("images/Legend-of-Zelda-Majoras-Mask-3D.jpg");
   background-size: cover;
   border-radius: 8px;
 }
@@ -42,27 +42,11 @@ body {
   border-radius: 8px;
   flex-wrap: wrap;
 }
-
-#link-container {
-  width: 200px;
-  background-color: white;
-  padding: 20px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 300px;
-}
-
-#social-container {
-  width: 200px;
-  height: 200px;
-  margin-left: 1px;
-}
 #steam {
   width: 30px;
   height: 30px;
   background-color: white;
-  background-image: url("steam-logo-transparent.png");
+  background-image: url("images/steam-logo-transparent.png");
   background-size: cover;
   border-radius: 100%;
   margin-left: 0px;
@@ -73,7 +57,7 @@ body {
   width: 30px;
   height: 30px;
   background-color: white;
-  background-image: url("uplay.png");
+  background-image: url("images/uplay.png");
   background-size: cover;
   border-radius: 100%;
   margin-left: 0px;
@@ -84,7 +68,7 @@ body {
   width: 30px;
   height: 30px;
   background-color: white;
-  background-image: url("Rockstar.png");
+  background-image: url("images/Rockstar.png");
   background-size: cover;
   border-radius: 100%;
   margin-left: 0px;
@@ -95,7 +79,7 @@ body {
   width: 30px;
   height: 30px;
   background-color: white;
-  background-image: url("epic.png");
+  background-image: url("images/epic.png");
   background-size: cover;
   border-radius: 100%;
   margin-left: 0px;
@@ -106,7 +90,7 @@ body {
   width: 30px;
   height: 30px;
   background-color: white;
-  background-image: url("xbox.png");
+  background-image: url("images/xbox.png");
   background-size: cover;
   border-radius: 100%;
   margin-left: 0px;
@@ -115,27 +99,73 @@ body {
   width: 30px;
   height: 30px;
   background-color: white;
-  background-image: url("origin.png");
+  background-image: url("images/origin.png");
   background-size: cover;
   border-radius: 100%;
   margin-left: 0px;
 }
-
+#playstation {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("images/playstation.jpg");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+}
+#nintendo {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("images/nintendo.png");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+}
+#link-container {
+  width: 22%;
+  background-color: white;
+  padding: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 300px;
+}
+#social-container {
+  width: 200px;
+  height: 200px;
+  margin-left: 1px;
+}
 #instagram {
   width: 70px;
   height: 70px;
-  background-image: url("instagram-logo.jpg");
+  background-image: url("images/instagram-logo.jpg");
   background-size: cover;
-  margin-left: 0px;
+
 }
 #facebook {
   width: 70px;
   height: 70px;
-  background-image: url("facebook.png");
+  background-image: url("images/facebook.png");
   background-size: cover;
-  margin-left: 0px;
-}
 
+}
+#youtube {
+  width: 70px;
+  height: 70px;
+  background-image: url("images/youtube.png");
+  background-size: cover;
+  margin-left:15px;
+  margin-top:10px;
+  
+}
+#twitch {
+  width: 70px;
+  height: 70px;
+  background-image: url("images/twitch.png");
+  background-size: cover;
+  margin-top:10px;
+}
 #search-bar {
   background-color: rgb(64, 64, 64);
   border-color: rgb(64, 64, 64);
@@ -160,7 +190,7 @@ body {
 }
 
 @media (max-width: 1030px) {
-  #link-contaier #social-container {
+  #link-container,#social-container {
     display: none;
   }
 }
