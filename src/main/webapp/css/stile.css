@@ -53,6 +53,17 @@ body {
   text-align: right;
   text-decoration: none;
 }
+.steam {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("../images/steam-logo-transparent.png");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+  text-align: right;
+  text-decoration: none;
+}
 #uplay {
   width: 30px;
   height: 30px;
@@ -64,11 +75,33 @@ body {
   text-align: right;
   text-decoration: none;
 }
-#rockstar {
+.uplay {
   width: 30px;
   height: 30px;
   background-color: white;
-  background-image: url("../images/Rockstar.png");
+  background-image: url("../images/uplay.png");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+  text-align: right;
+  text-decoration: none;
+}
+#gog {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("../images/gog.png");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+  text-align: right;
+  text-decoration: none;
+}
+.gog {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("../images/gog.png");
   background-size: cover;
   border-radius: 100%;
   margin-left: 0px;
@@ -76,6 +109,17 @@ body {
   text-decoration: none;
 }
 #epic {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("../images/epic.png");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+  text-align: right;
+  text-decoration: none;
+}
+.epic {
   width: 30px;
   height: 30px;
   background-color: white;
@@ -95,7 +139,25 @@ body {
   border-radius: 100%;
   margin-left: 0px;
 }
+.xbox {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("../images/xbox.png");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+}
 #origin {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("../images/origin.png");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+}
+.origin {
   width: 30px;
   height: 30px;
   background-color: white;
@@ -113,6 +175,15 @@ body {
   border-radius: 100%;
   margin-left: 0px;
 }
+.playstation {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("../images/playstation.jpg");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+}
 #nintendo {
   width: 30px;
   height: 30px;
@@ -122,8 +193,17 @@ body {
   border-radius: 100%;
   margin-left: 0px;
 }
+.nintendo {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  background-image: url("../images/nintendo.png");
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 0px;
+}
 #link-container {
-  width: 22%;
+  width: 200px;
   background-color: white;
   padding: 20px;
   margin-left: 10px;
@@ -164,133 +244,33 @@ body {
   background-size: cover;
   margin-top: 10px;
 }
-#steam1{
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  background-image: url("../images/steam-logo-transparent.png");
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 0px;
-  text-align: right;
-  text-decoration: none;
-}
-#uplay1{
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  background-image: url("../images/uplay.png");
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 0px;
-  text-align: right;
-  text-decoration: none;
-}
-#rockstar1{
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  background-image: url("../images/Rockstar.png");
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 0px;
-  text-align: right;
-  text-decoration: none;
-}
-#epic1{
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  background-image: url("../images/epic.png");
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 0px;
-  text-align: right;
-  text-decoration: none;
-}
-#xbox1{
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  background-image: url("../images/xbox.png");
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 0px;
-}
-#origin1{
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  background-image: url("../images/origin.png");
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 0px;
-}
-#playstation1 {
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  background-image: url("../images/playstation.jpg");
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 0px;
-}
-#nintendo1{
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  background-image: url("../images/nintendo.png");
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 0px;
-}
-#link-container1{
-  width: 200px;
-  height: 250px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 300px;
-  margin-top:10px;
-  display: none;
-
-}
-#social-container1{
-  width: 200px;
-  display:none;
-  margin-top:20px;
-  margin-bottom: 20px;
-}
-#instagram1 {
-  width: 70px;
-  height: 70px;
-  background-image: url("../images/instagram-logo.jpg");
-  background-size: cover;
-}
-#facebook1 {
-  width: 70px;
-  height: 70px;
-  background-image: url("../images/facebook.png");
-  background-size: cover;
-}
-#youtube1 {
-  width: 70px;
-  height: 70px;
-  background-image: url("../images/youtube.png");
-  background-size: cover;
-  margin-left: 15px;
-  margin-top: 10px;
-}
-#twitch1 {
-  width: 70px;
-  height: 70px;
-  background-image: url("../images/twitch.png");
-  background-size: cover;
-  margin-top: 10px;
-}
 #search-bar {
   background-color: rgb(64, 64, 64);
   border-color: rgb(64, 64, 64);
   color: rgb(255, 69, 0);
+}
+#gamecontainer{
+
+  background-color: blue;
+}
+.GameSpace{
+  borderRadius:10px;
+  backgroundColor:black;
+  width: 250px;
+  height: 200px;
+}
+.GameImage
+{
+  width:250px;
+  height: 150px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.GameName
+{
+  background-color: black;
+  color: antiquewhite;
+
 }
 @media (max-width: 600px) {
   #testa {
@@ -310,13 +290,4 @@ body {
   }
 }
 
-@media (max-width: 800px) {
-  #link-container,
-  #social-container {
-    display: none;
-  }
-  #link-container1,
-  #social-container1 {
-    display: block;
-  }
-}
+
